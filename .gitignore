@@ -1,0 +1,4 @@
+node_modules
+.env
+start.sh
+url-shortener-ec2.pem

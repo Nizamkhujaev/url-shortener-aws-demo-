@@ -1,0 +1,27 @@
+{
+  "name": "aws-full-course",
+  "version": "1.0.0",
+  "description": "A fully automated, scalable **Node.js + PostgreSQL** URL shortener deployed on **AWS** using **CDK (JavaScript), CI/CD (GitHub Actions + CodeDeploy), and AWS RDS, EC2, ALB, and S3**. This project demonstrates **end-to-end cloud infrastructure automation** and **continuous deployment**.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3"
+  }
+}
